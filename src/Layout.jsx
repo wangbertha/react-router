@@ -5,8 +5,9 @@ export default function Layout () {
     <div id='container'>
       <header>
         <nav id='navbar'>
-          <NavLink to="/blue">Blue</NavLink>
-          <NavLink to="/red">Red</NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/blue">Blue</NavLink>
+            <NavLink to="/red">Red</NavLink>
         </nav>
       </header>
     <Outlet />

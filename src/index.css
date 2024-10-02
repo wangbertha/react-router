@@ -33,6 +33,10 @@ body>div {
   justify-content: center;
 }
 
+.home {
+  font-style: italic;
+}
+
 .red {
   background-color: #b05f6d;
   color: white;
