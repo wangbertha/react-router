@@ -1,5 +1,5 @@
 export default function Red () {
   return (
-    <div className="red">Red</div>
+    <div id='main-section' className="red">RED</div>
   )
 }

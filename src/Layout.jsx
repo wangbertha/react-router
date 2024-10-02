@@ -2,14 +2,14 @@ import { NavLink, Outlet } from "react-router-dom";
 
 export default function Layout () {
   return (
-    <>
+    <div id='container'>
       <header>
-        <nav>
+        <nav id='navbar'>
           <NavLink to="/blue">Blue</NavLink>
           <NavLink to="/red">Red</NavLink>
         </nav>
-        <Outlet />
       </header>
-    </>
+    <Outlet />
+    </div>
   )
 }

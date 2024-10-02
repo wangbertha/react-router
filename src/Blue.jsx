@@ -1,6 +1,6 @@
 export default function Blue () {
   return (
-    <div className="blue">Blue</div>
+    <div id='main-section' className="blue">BLUE</div>
   )
 }
 
